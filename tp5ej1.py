@@ -5,7 +5,10 @@
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 
-<<<<<<< HEAD
+# Reemplazar por las funciones del ejercicio
+
+"""Escribir una función que retorne True cuando un número entero es par y False cuando no lo sea, sin utilizar módulo. (%)"""
+
 def es_par(numero):
     """
     Retorna True si el número ingresado es par. Retorna False si el número ingresado es impar
@@ -20,11 +23,7 @@ def es_par(numero):
         return True
     else:
         return False
-=======
 
-# Reemplazar por las funciones del ejercicio
-"""Escribir una función que retorne True cuando un número entero es par y False cuando no lo sea, sin utilizar módulo. (%)"""
->>>>>>> b847af57ab13def8aa146ccc75423fdd6dbc9835
 
 def prueba():
     numero1 = es_par(-10)
