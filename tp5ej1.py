@@ -1,6 +1,6 @@
 ################
 # MARTIN DARRICADES Sebastián - @sebasamd
-# *Agregar datos
+# BOCCHIGLIERE Andrés - @AndresBochi - elmaildeandresbochi@gmail.com
 # *Agregar datos
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
