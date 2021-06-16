@@ -5,13 +5,28 @@
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 
-
-# Reemplazar por las funciones del ejercicio
-
+def es_par(numero):
+    """
+    Retorna True si el número ingresado es par. Retorna False si el número ingresado es impar
+    
+    """
+    num = abs(numero) # La función abs() permite que se evaluen números negativos ya que toma el número sin signo
+    
+    while num > 1:
+        num -= 2
+    
+    if num == 0:
+        return True
+    else:
+        return False
 
 def prueba():
-    """Toda la interacción con el usuario va acá"""
-    pass
+    numero1 = es_par(-10)
+    print(numero1)
+    numero2 = es_par(7)
+    print(numero2)
+    
+    
 
 if __name__ == "__main__":
     prueba()
