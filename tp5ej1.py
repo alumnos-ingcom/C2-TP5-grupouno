@@ -7,7 +7,7 @@
 
 
 # Reemplazar por las funciones del ejercicio
-
+"""Escribir una función que retorne True cuando un número entero es par y False cuando no lo sea, sin utilizar módulo. (%)"""
 
 def prueba():
     """Toda la interacción con el usuario va acá"""
