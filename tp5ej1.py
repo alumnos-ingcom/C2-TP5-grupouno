@@ -24,12 +24,28 @@ def es_par(numero):
     else:
         return False
 
+def es_par2(numero):
+    """
+    Se me ocurrio otro metodo y quise probarlo. Utiliza el número ingresado como exponente de -2.
+    
+    """
+    elevado = (-2)**(numero)
+    if elevado > 0:
+        return True
+    else:
+        return False
+        
 
 def prueba():
-    numero1 = es_par(-10)
+    numero1 = es_par(-20)
     print(numero1)
     numero2 = es_par(7)
     print(numero2)
+    ##Lineas para es_par2
+    numero3 = es_par2(-4)
+    print(numero3)
+    numero4 = es_par2(51)
+    print(numero4)
     
     
 
