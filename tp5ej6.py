@@ -20,8 +20,6 @@ def limpiar_cadena(cadena):
             i += 1
             if (n) in validos:
                 filtrada.append(n)
-        if not filtrada:
-            return "["
         return filtrada
 
 #def transformar_tupla(lista):
