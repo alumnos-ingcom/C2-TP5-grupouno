@@ -16,7 +16,7 @@ def encontrar_factoriales(numero):
     
     """
     
-    lista_factoriales = [1,]
+    lista_factoriales = [1,] # El 0 por definición tiene factorial = 1, por eso inicializamos la lista con ese valor.
     resultado = 1
     
     for i in range (9):
