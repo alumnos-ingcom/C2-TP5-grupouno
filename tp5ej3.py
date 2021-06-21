@@ -3,14 +3,14 @@
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 
-class CustomError(Exception):
+class ValorMenor(Exception):
     pass
 
 def prueba():
     try:
         indice = input("Ingrese el n-nesimo elemento de la serie Fibonacci: ")
         if int(indice) <= 3:
-            raise CustomError("El nùmero debe ser un entero mayor que 3")
+            raise ValorMenor
         valor1 = 1
         valor2 = 1
         valor3 = 1
@@ -23,6 +23,8 @@ def prueba():
         print("El n-nesimo valor de la serie es: " + str(valor3))
     except ValueError as err:
         print("El valor no es un numero")
+    except ValorMenor:
+        print("El valor tiene que ser mayor que 3")
     pass
 
 if __name__ == "__main__":
