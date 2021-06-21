@@ -1,5 +1,4 @@
 ################
-<<<<<<< HEAD
 # MARTIN DARRICADES Sebastián - @sebasamd
 # BOCCHIGLIERE Andrés - @AndresBochi - elmaildeandresbochi@gmail.com
 # *Agregar datos
@@ -44,35 +43,7 @@ def prueba():
     termino = fibonacci(numero)
     print(f"\n {termino}")
     
-=======
-# Sergio Checcarelli - @checas
-# UNRN Andina - Introducción a la Ingenieria en Computación
-################
-
-class CustomError(Exception):
-    pass
-
-def prueba():
-    try:
-        indice = input("Ingrese el n-nesimo elemento de la serie Fibonacci: ")
-        if int(indice) <= 2:
-            raise CustomError("El nùmero debe ser mayor que 2")
-        valor1 = 0
-        valor2 = 1
-        for number in range(int(indice)-2):
-            valorAux = valor2
-            valor2 = valor1 + valor2
-            valor1 = valorAux
-        print("El n-nesimo valor de la serie es: " + valor2)
-    except ValueError as err:
-        print("El valor no es un numero")
-    pass
->>>>>>> 509e81a6226225ebbb081aadc9098bd1f8aa6815
 
 if __name__ == "__main__":
     prueba()
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 509e81a6226225ebbb081aadc9098bd1f8aa6815
