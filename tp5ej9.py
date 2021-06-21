@@ -7,20 +7,21 @@
 
 # Reemplazar por las funciones del ejercicio
 
-def factorial(num):
+def factorial(numero):
     """Factorial"""
-    product = num
-    for i in range(2, num):
-        product *= i
-    return product
+    producto = numero
+    for i in range(2, numero):
+        producto *= i
+        print(producto)
+    return producto
 
 def prueba():
     print("Probando las funciones(TP5EJ6)")
 
     print("Ingrese una cadena para verificar si se encuentra balanceada: \n")
     cadena = input("Ingrese su cadena: ")
-    filtrada = filtrar_cadena(cadena)
-    verificar = balance_cadena(filtrada)
+    entero = int(cadena)
+    verificar = factorial(entero)
     print(verificar)
     
 if __name__ == "__main__":
